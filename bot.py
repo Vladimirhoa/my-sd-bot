@@ -13,7 +13,7 @@ load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 
 # Настройки SD (Forge)
-SD_URL = "http://127.0.0.1:7861/sdapi/v1/txt2img"
+SD_URL = "http://127.0.0.1:7860/sdapi/v1/txt2img"
 
 # Инициализация
 logging.basicConfig(level=logging.INFO)
